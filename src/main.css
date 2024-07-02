@@ -1,0 +1,55 @@
+
+.navbar{
+    position:fixed;
+    width: 100% !important;
+    background-color: transparent;
+    border-bottom: 1px solid green;
+}
+h2{
+    color: green !important;
+}
+button{
+    border-radius: 5px !important;
+}
+.home{
+    background: url(../img/ph-4.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 100vh;
+        position: relative;
+}
+
+.about-container{
+  
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around;
+    
+}
+.about-img{
+    width: 600px !important; 
+    /* background-color: red !important; */
+    background: url(../img/Hotel-1.jpg);
+    background-position: center;
+        background-size: cover;
+}
+.about-info{
+    padding: 15px !important;
+    /* background-color: gray !important; */
+    width: 600px !important;
+}
+.about{
+    background: url(../img/Hotel-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.service{
+    background: url(../img/Hotel-2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 100vh;
+}
